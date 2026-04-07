@@ -12,10 +12,10 @@ with col1:
         st.switch_page('pages/Lagrange.py')
 
 with col2:
-    if st.button("Press here to begin part 2 question 2. Divided Differences and Newton's form"):
+    if st.button("Press here to begin part 1 question 2. Divided Differences and Newton's form"):
         st.switch_page('pages/DividedDifferences.py')
 
 with col3:
-    if st.button("Press here to being part 3. Root Finding"):
+    if st.button("Press here to being part 2. Root Finding"):
         st.switch_page('pages/RootFinding.py')
 
