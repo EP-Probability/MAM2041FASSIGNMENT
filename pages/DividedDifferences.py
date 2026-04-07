@@ -51,7 +51,7 @@ yap=D(xap)
 
 if st.button("Press here to calculate Divided differnces and Newton's form for part 1 question 2"):
     st.write("In this section we use the same given data points that we used to interpolate with the Lagrange interpolating polynomial. It took me a while to figure out how to code up the divided differences, I finally formed a method, which I believe is pretty clunky, but it works. I do the same as before and present an animated version of the graph and a static version. I also display a table that contains all the divided differences not just the ones for the Newton's form polynomial. I display a message at the end that will only display if the Lagrange interpolating polynomial and the divided differences and Newton's form polynomial equal obviously using an if statement.")
-    st.write('Press the white button to display an animation on how the Lagrange interpolation plots our values')
+    st.write('Press the white button to display an animation on how the Divided differences and Newton's form plots our values')
     fig = go.Figure(
         data=[
             go.Scatter(x=x,y=y,mode='lines',name='Given Data', marker=dict(color='red', size=10))
